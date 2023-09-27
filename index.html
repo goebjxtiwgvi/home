@@ -55,15 +55,15 @@ h1 span a{ font-size:16px; margin: 158px 0 0 15px; line-height: 20px;}
             <div class="form-row">
 
                       <div class="form-group col-md-12">
-                        <h1>Check 4 Gmail <span><a data-toggle="modal" data-target="#myModal" _class="text-danger">问题反馈 & 联系我</a></span></h1>
-                        <label class="float-left" for="username">账号列表：</label>
+                        <h1>فحص ايميلات الجيميل<span><a data-toggle="modal" data-target="#myModal" _class="text-danger">للاقتراحات و التواصل</a></span></h1>
+                        <label class="float-left" for="username">قائمة الحسابات：</label>
                         <textarea class="form-control" id="lists" name="lists" rows="19" placeholder="请在这里粘贴您的账号&#13;&#10;name1@gmail.com&#13;&#10;name2@gmail.com&#13;&#10;name3@gmail.com&#13;&#10;...&#13;&#10;每行一个，只填账号即可，无需密码&#13;&#10;* 为方便大家使用 每行的@gmail.com后面元素会自动忽略"></textarea>
-                        <div class="radio" style="margin-top:20px;">类型模式：
+                        <div class="radio" style="margin-top:20px;">نوع الاميل：
                             <label>
-                                <input type="radio" name="mailtype" class="mailtype" value="0" checked> 个人账号模式
+                                <input type="radio" name="mailtype" class="mailtype" value="0" checked> شخصي
                             </label>
                             <label style="margin-left:20px;">
-                                <input type="radio" name="mailtype" class="mailtype" value="1">（企业/个人）兼容模式（已修复）
+                                <input type="radio" name="mailtype" class="mailtype" value="1"> تعليمي
                             </label>
                         </div>
                         <button type="button" class="btn btn-primary" onclick="return chuli();" style="margin-top:20px; background:#4288c4;border-color:#4288c4">فحص</button>
@@ -110,7 +110,7 @@ h1 span a{ font-size:16px; margin: 158px 0 0 15px; line-height: 20px;}
 		 <textarea class="tab-pane" id="error"></textarea>
         </div>
 		<div style="padding:20px 0;">
-			<button type="button" class="btn btn-success" onclick="return copyTextarea('#success','复制成功-正常卡密');" style="margin-top:20px;background:#5bb85f;border-color:#5bb85f">复制正常卡密</button>
+			<button type="button" class="btn btn-success" onclick="return copyTextarea('#success','复制成功-正常卡密');" style="margin-top:20px;background:#5bb85f;border-color:#5bb85f">نسخ القائمة</button>
 						<button type="button" class="btn btn-danger" onclick="return copyTextarea('#error','复制成功-异常卡密');" style="margin-top:20px;margin-left:20px;background:#d8554d;border-color:#d8554d">复制异常卡密</button>
 		</div>
       </div>
